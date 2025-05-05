@@ -66,3 +66,12 @@ git init
 git remote add origin https://github.com/fadliazharr/Worldcup-Database.git
 git remote -v
 git add .
+git commit -m "Initial commit with Worldcup database project files"
+git push -u origin main
+git branch
+git branch -m master main
+git push -u origin main
+git fetch origin
+git merge origin/main
+git merge origin/main --allow-unrelated-histories
+git add .
